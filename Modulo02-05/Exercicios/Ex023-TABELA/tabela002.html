@@ -15,11 +15,17 @@
         table{
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
         caption{
             font-size: 1.5em;
             font-weight: bold;
             padding: 10px;
+            background-color: grey;
+        }
+        thead > tr > th{
+            position: static;
+            top: -1px;
             background-color: grey;
         }
         td, th {
