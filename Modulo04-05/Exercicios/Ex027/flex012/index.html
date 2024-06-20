@@ -14,17 +14,21 @@
         div.item{
             background-color: lightblue;
             border: 1px solid black;
-            text-align: center;           
+            text-align: center;
+            flex-basis: 200px;
         }
 
         div#cxA{
-            flex: 1 0 200px;
+            flex-shrink: 0;
+            flex-grow: 1;
         }                   
         div#cxB{
-            flex: 1 1 150px;
+            flex-shrink: 1;
+            flex-grow: 1;
         }            
-        div#cxC{           
-            flex: 1 8 auto;
+        div#cxC{
+            flex-shrink: 3;
+            flex-grow: 1;    
         }            
 
 
